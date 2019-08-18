@@ -1,7 +1,7 @@
 
-#How to enable HTTPS for a new web site:
+# How to enable HTTPS for a new web site:
 
-##Steps:
+## Steps:
 
 1. Have a web server running with a simple application.
 2. Have a domain name configured
@@ -9,6 +9,7 @@
 4. Installing certificate.
 
 ### Have a web server running with a sample application
+
 
 ### Domain name configured
 
