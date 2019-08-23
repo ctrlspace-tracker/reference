@@ -16,7 +16,14 @@ docker push deiveehan/ctrl-space-io-home
 docker run -t -d deiveehan/ctrl-space-io-home // Custom image
 
 ### Connect to the container using ssh
-
+docker connect
 
 ### Delete images
 docker rmi -f deiveehan/ctrl-space-io-home
+docker rmi $(docker images -q)                // Deletes all images in local
+
+
+### Monitor
+docker ps
+docker ps -a                      // lists all containers
+docker ps --filter status=running // selects containers that are running.
