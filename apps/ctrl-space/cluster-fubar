@@ -4,7 +4,7 @@ gcloud beta container --project "<project-id>" clusters create "fubar-cluster" -
 gcloud container clusters describe fubar-cluster --zone us-central1-a
 
 --- setting up kubectl config in local system
-gcloud container clusters get-credentials fubar-cluster --zone us-central1-a --project wise-dispatcher-238019
+gcloud container clusters get-credentials fubar-cluster --zone us-central1-a --<project-name>
 
 
 
