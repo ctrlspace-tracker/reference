@@ -1,5 +1,10 @@
 ## Docker commands cheatsheet
 
+### Setup
+Install docker in the docker home page (Install the dmg file)
+https://docs.docker.com/v17.12/docker-for-mac/install/#download-docker-for-mac
+
+
 ### Basic commands
 ``` shell script
 docker images   // Listing all images
