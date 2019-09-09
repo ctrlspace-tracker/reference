@@ -34,6 +34,8 @@ git remote
 git remote -v
 ```
 
+### Git pull latest from develop 
+
 ### Logging
 ```
 git log
