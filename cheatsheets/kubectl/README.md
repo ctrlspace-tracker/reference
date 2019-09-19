@@ -42,7 +42,11 @@ kubectl cluster-info
 kubectl get componentstatus             //  Get cluster health information. 
 ```
 
+#### Node information
+```shell script
+k get nodes
 
+```
 
 
 

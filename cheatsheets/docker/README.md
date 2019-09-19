@@ -4,6 +4,13 @@
 Install docker in the docker home page (Install the dmg file)
 https://docs.docker.com/v17.12/docker-for-mac/install/#download-docker-for-mac
 
+## Get started commands
+```
+docker version
+docker run -it hello-world
+
+```
+
 
 ### Basic commands
 ``` shell script
