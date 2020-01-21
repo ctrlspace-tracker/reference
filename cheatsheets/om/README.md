@@ -1,5 +1,6 @@
 ### Ops manager manipulations
 
+<a href="https://github.com/pivotal-cf/om">OM CLI Reference </a>
 
 ```
 version                         prints the om release version
@@ -66,6 +67,8 @@ cleanup/delete:
 
 
 --- All commands
+```shell script
+
   activate-certificate-authority  activates a certificate authority on the Ops Manager
   bosh-diff                       **EXPERIMENTAL** displays BOSH manifest diff for the director and products
   certificate-authorities         lists certificates managed by Ops Manager
@@ -100,3 +103,4 @@ cleanup/delete:
   tile-metadata                   **DEPRECATED** prints product metadata. Use product-metadata instead
   update-ssl-certificate          updates the SSL Certificate on the Ops Manager
 
+```
