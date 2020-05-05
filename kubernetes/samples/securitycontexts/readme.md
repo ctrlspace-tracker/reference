@@ -29,6 +29,8 @@ cat /etc/message/message.txt
 sudo chown 2000:3000 /etc/message/message.txt
 sudo chmod 640 /etc/message/message.txt
 ```
+#### Create a new pod that has security context with user permissions
+<a href="/securitycontext-pod-basic.yml">Pod sample</a>
 
 #### Run sample
 ```shell script
