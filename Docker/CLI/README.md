@@ -18,6 +18,9 @@ docker images   // Listing all images
 docker ps       // View the current process
 ```
 
+### Pull images
+docker 
+
 ### Build
 ``` shell script
 docker build -t deiveehan/ctrl-space-io-home .
@@ -42,6 +45,12 @@ docker connect
 ``` shell script
 docker rmi -f deiveehan/ctrl-space-io-home
 docker rmi $(docker images -q)                // Deletes all images in local
+```
+
+### Kill container
+```shell script
+docker ps
+docker kill <container-id>
 ```
 
 

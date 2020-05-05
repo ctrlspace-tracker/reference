@@ -1,6 +1,0 @@
-## HELM commands
-
-
-
-#### Installation
-
