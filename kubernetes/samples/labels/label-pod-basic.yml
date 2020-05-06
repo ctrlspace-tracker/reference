@@ -1,22 +1,12 @@
-apiVersion: apps/v1
-kind: Deployment
+apiVersion: v1
+kind: Pod
 metadata:
-  name: testname
+  name: label-pod-basic
   labels:
-    app: testname
+    app: label-pod-basic
 spec:
-  replicas: 1
-  template:
-    metadata:
-      name: testname
-      labels:
-        app: testname
-    spec:
-      containers:
-        - name: testname
-          image: busybox
-          imagePullPolicy: IfNotPresent
-      restartPolicy: Always
-  selector:
-    matchLabels:
-      app: testname
+  containers:
+    - name: label-pod-basic
+      image: busybox
+      imagePullPolicy: IfNotPresent
+  restartPolicy: Always

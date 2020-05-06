@@ -21,3 +21,4 @@ gcloud config config-helper --format=json | jq .credential.access_token
 
 Paste the token in the browser and 
 have fun with the dashboard !!
+
