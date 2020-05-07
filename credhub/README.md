@@ -2,42 +2,42 @@
 VALUE
 ```shell script
 credhub set --type value 
-            --name '/example-value' 
+            --name '/sample-value' 
             --password 'sample'
 ```
 PASSWORD
 ```aidl
 credhub set --type password 
-            --name '/example-password' 
-            --password '3t6Y2OFP0jQIcLnki1h7p3NtSfDx4l9bamr1ja6R'
+            --name '<password-name>' 
+            --password '<password>'
 ```
 USER
 ```shell script
 user$ credhub set --type user 
-            --name '/example-user' 
-            --username 'FQnwWoxgSrDuqDLmeLpU' 
-            --password '6mRPZB3bAfb8lRpacnXsHfDhlPqFcjH2h9YDvLpL'
+            --name '/sample-user' 
+            --username '<username>' 
+            --password '<password>'
 ```
 CERTIFICATE
 ```shell script
 credhub set --type certificate 
-            --name '/example-certificate' 
-            --root ./root.pem 
-            --certificate ./cert.pem 
-            --private ./private.pem
+            --name '/sample-certificate' 
+            --root <./locationofrootcert.pem> 
+            --certificate <./locationofcert.pem> 
+            --private <./locationofrootprivate.pem>
 ```
 RSA
 ```shell script
 credhub set --type rsa 
-            --name '/example-rsa' 
-            --public ./public.pem 
-            --private ./private.pem
+            --name '/sample-rsa' 
+            --public <publickep.pem> 
+            --private <privatekey.pem>
 ```
 
 SSH
 ```shell script
 credhub set --type ssh 
-            --name '/example-ssh' 
+            --name '/samplessh' 
             --public ./public.pem 
             --private ./private.pem
 ```
@@ -53,14 +53,14 @@ credhub get --name '/key-name'
 ```
 ### Delete credentials
 ```shell script
-credhub delete --name '/example-password'
+credhub delete --name '/sample-password'
 ```
 
 ### Generate credentials
 ```shell script
-credhub generate --type password --name '/example-password'
-credhub generate --type user --name '/example-user'
-credhub generate --type certificate --name '/example-certificate' --common-name 'example.com' --ca '/example-ca'
-credhub generate --type rsa --name '/example-rsa'
-credhub generate --type ssh --name '/example-ssh'
+credhub generate --type password --name '/sample-password'
+credhub generate --type user --name '/sample-user'
+credhub generate --type certificate --name '/sample-certificate' --common-name 'sample.com' --ca '/sample-ca'
+credhub generate --type rsa --name '/sample-rsa'
+credhub generate --type ssh --name '/sample-ssh'
 ```

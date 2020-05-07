@@ -1,1 +1,0 @@
-kubectl port-forward pod/ctrl-space-io-home-web-65f568cc8d-m8r92 7000:80
