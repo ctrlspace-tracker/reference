@@ -1,5 +1,5 @@
 
 
 ##Architecture overview
-<img src="architecture/architecture.001.jpeg"></img>
+<img src="images/architecture.001.jpeg"></img>
 
