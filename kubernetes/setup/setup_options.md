@@ -20,9 +20,8 @@
     * Microsoft Azure: using Azure Container Service
     * Openshift dedicated
 
-
 ### Setup steps
 
-1. [Custom in multiple machines](setup/custom/setup.md)
-2. [GCP](gcp/setup.md)
-3. AWS
+1. [Minikube](minikube/minikube.md)
+2. [Custom in multiple machines](setup/custom/setup.md)
+3. [GCP](gcp/setup.md)
